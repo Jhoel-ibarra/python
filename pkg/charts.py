@@ -13,7 +13,7 @@ def generate_pie_chart(labels , values):
   plt.close()
 
 if __name__ == '__main__':
-  labels=["a", "b", "c"]
+  labels=["a", "b", "f","c"]
   values= [25 , 25,50]
   #generar_bar_chart(label, values)
   generate_pie_chart(labels, values)
